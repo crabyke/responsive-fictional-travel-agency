@@ -98,6 +98,8 @@ nav ul li:hover {
 .hero-text p {
   font-size: 0.8em;
   line-height: 1.5em;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
 }
 
 /* SEARCH BAR */
@@ -279,6 +281,9 @@ footer {
     padding: 1em 1em;
   }
   .mobile-menu-arrow {
+    display: block;
+  }
+  nav ul {
     display: none;
   }
 }
